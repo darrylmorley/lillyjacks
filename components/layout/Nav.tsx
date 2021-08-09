@@ -30,6 +30,16 @@ export default function Nav() {
             margin-right: 1em;
             color: white;
           }
+
+          li:hover {
+            background: linear-gradient(orange, white);
+            background: -webkit-linear-gradient(orange, white);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            text-fill-color: transparent;
+            -webkit-text-fill-color: transparent;
+          }
         `}
       </style>
     </nav>
