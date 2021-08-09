@@ -10,7 +10,7 @@ export default function Nav() {
       <style jsx>
         {`
           nav {
-            height: 2em;
+            height: 2.9em;
             margin-top: 1px;
             background-color: #671591;
           }
@@ -23,9 +23,9 @@ export default function Nav() {
           }
 
           li {
-            font-family: "Permanent Marker", cursive;
-            text-transform: uppercase;
-            font-size: 1.4em;
+            font-family: "Style Script", cursive;
+            font-size: 1.8em;
+            margin-top: 0.1em;
             margin-left: 1em;
             margin-right: 1em;
             color: white;
