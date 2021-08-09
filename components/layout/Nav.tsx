@@ -2,10 +2,10 @@ export default function Nav() {
   return (
     <nav>
       <ul>
-        <li>Sweets</li>
-        <li>Treats</li>
-        <li>Gifts</li>
-        <li>Christmas</li>
+        <li>Sweet Boxes</li>
+        <li>Tasty Treats</li>
+        <li>Awesome Gifts</li>
+        <li>Jolly Christmas</li>
       </ul>
       <style jsx>
         {`
@@ -23,11 +23,11 @@ export default function Nav() {
           }
 
           li {
-            font-family: Lato;
-            font-weight: 900;
+            font-family: "Permanent Marker", cursive;
             text-transform: uppercase;
             font-size: 1.4em;
-            margin: 0em 1em;
+            margin-left: 1em;
+            margin-right: 1em;
             color: white;
           }
         `}
